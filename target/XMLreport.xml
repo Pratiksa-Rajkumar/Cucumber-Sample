@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="41.112985">
+<testcase classname="purchase products in Online" name="validate login functionality" time="41.110748">
+<system-out><![CDATA[Given application displaying welcome message................................passed
+When user opens login application...........................................passed
+And entering username as "mercury"..........................................passed
+And entering password as "mercury"..........................................passed
+Then click Submit...........................................................passed
+And Validate login success..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="purchase products in Online" name="Search products" time="0.000811">
+<system-out><![CDATA[Given application displaying welcome message................................passed
+When user entering search product as "iphone"...............................passed
+Then application display search related items...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="purchase products in Online" name="Add products to cart" time="0.000688">
+<system-out><![CDATA[Given application displaying welcome message................................passed
+When user click on Add to cart..............................................passed
+And The product should added to cart item...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="purchase products in Online" name="Payment" time="0.000738">
+<system-out><![CDATA[Given application displaying welcome message................................passed
+When user performs payment through netbanking...............................passed
+Then close application......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
